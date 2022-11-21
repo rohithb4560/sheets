@@ -1,0 +1,12 @@
+body{
+    width:max-content;
+}
+.buttons{
+    width: 150px;
+    height: 20px;
+    border: 1px solid black;
+}
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(27,1fr);
+}
